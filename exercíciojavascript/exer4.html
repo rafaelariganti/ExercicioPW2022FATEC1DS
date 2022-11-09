@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <title>exercício 4</title>
+
+</head>
+<body>
+    <div id="y" onmouseover="cor()"></div>
+    <div id="z" onclick="clicar()"></div>
+
+    <script>
+        let div0 = document.getElementById("y");
+        let div1 = document.getElementById("z");
+       
+        
+        
+        div0.style.width = "300px";
+        div0.style.heigth = "300px";
+        div0.style.backgroundColor = "#993399";
+        div0.style.right = "200px";
+        div0.innerHTML = "<h1> passe o mouse</h1>"
+        
+
+        div1.style.width = "300px";
+        div1.style.heigth = "300px";
+        div1.style.backgroundColor = "#FF0000";
+        div1.innerHTML = "<h1> clique aqui</h1>";
+
+
+        function cor(){
+            div0.style.backgroundColor = "#808080";
+        }
+
+        function clicar(){
+            algo = prompt("Digite algo: ");
+            alert(algo);
+
+        }
+
+    </script>
+</body>
+</html>
+</body>
+</html>
