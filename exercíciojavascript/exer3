@@ -1,0 +1,20 @@
+document.getElementById();
+É uma função do JavaScript que serve para 
+retornar um elemento do DOM que é identificado por um ID específico.
+
+document.getElementsByTagName();
+O método getElementsByTagName da interface Document retorna um HTMLCollection de elementos com o nome da tag fornecido. 
+O documento completo é pesquisado, incluindo o nó raiz.
+
+document.getElementsByClassName();
+Retorna um vetor de objetos com todos os elementos filhos que possuem o nome da classe dada. 
+Quando invocado no objeto document, o documento é examinado por completo, incluindo o nó raiz.
+
+document.querySelector();
+Retorna o primeiro elemento dentro do documento (usando ordenação em profundidade, pré-ordenada e transversal dos nós do documento)
+que corresponde ao grupo especificado de seletores.
+
+document.querySelectorAll();
+Retorna o primeiro elemento dentro do documento 
+(usando ordenação em profundidade, pré-ordenada e transversal dos nós do documento)
+que corresponde ao grupo especificado de seletores.
